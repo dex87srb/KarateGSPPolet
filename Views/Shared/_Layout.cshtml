@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+</head>
+<body id="layout-body">
+    <div id="wrapper">
+        <div id="banner">
+            <div id="bannerGRB"></div>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="~/Home/Index">Karate klub GSP Polet</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active">@Html.ActionLink("Početna", "Index")</li>
+                        <li>@Html.ActionLink("Video", "Video")</li>
+                        <li>@Html.ActionLink("Kontakt", "Contact")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <partial name="_CookieConsentPartial" />
+        <div id="containerBody">
+            @RenderBody()
+            <footer>
+                <input type="image" src="~/images/footer icons/facebook.png" class="items" />
+                <input type="image"  src="~/Images/footer icons/wkf.png" class="items" />
+                <input type="image"  src="~/Images/footer icons/BKS.png" class="items" />
+                <p id="footer-text">2020|Sva prava zadržana.</p>
+
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

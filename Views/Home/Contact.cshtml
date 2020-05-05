@@ -1,0 +1,127 @@
+﻿@model Karate_GSP.Models.ContactFormModel
+@{
+    ViewData["Title"] = "Kontakt";
+
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Karate klub GSP polet</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css?parameter=1" rel="stylesheet" />
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+
+</head>
+<body>
+    <div id="information-container">
+        <div id="information">
+            <div class="row">
+                <div class="col-xs-6">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Radoslava Grujića 2, Beograd</p>
+                </div>
+                <div class="col-xs-6">
+                    <i class="fa fa-phone"></i>
+                    <p>+ 381 65 4481 373</p>
+                </div>
+                <div class="col-xs-6">
+                    <i class="fa fa-envelope"></i>
+                    <p>aksentijevic.z@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" id="contact-form">
+            <div>
+                @if (ViewBag.Message == null)
+                {
+                    <div>
+                        <form method="post">
+                            <div class="form-group">
+                                <label class="label-contact" asp-for="Name">Ime</label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name"
+                                      class="text-muted"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-contact" asp-for="Email">Imejl</label>
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email"
+                                      class="text-muted"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-contact" asp-for="Subject">Tema</label>
+                                <input asp-for="Subject" class="form-control" />
+                                <span asp-validation-for="Subject"
+                                      class="text-muted"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-contact" asp-for="Message">Poruka</label>
+                                <textarea
+                                          asp-for="Message" class="form-control"></textarea>
+                                <span asp-validation-for="Message"
+                                      class="text-muted"></span>
+                            </div>
+                            <div>
+                                <button type="submit"
+                                        class="btn btn-success">
+                                    Send
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                }
+                <div class="social">
+                    <div class="inner-social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <div class="inner-social">
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-reddit-alien"></i>
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    @if (ViewBag.Message != null)
+                    {
+                        <div>@ViewBag.Message</div>
+
+
+                    }
+                </div>
+            </div>
+        </div>
+        <div id="map">
+        </div>
+    </div>
+    <script>
+        var mapcode;
+        var diag;
+        var ln1 = { lat: 44.7983, lng: 20.4797 }
+        function initialize() {
+            mapcode = new google.maps.Geocoder();
+            var lnt = new google.maps.LatLng(44.7983, 20.4797);
+            var diagChoice = {
+                zoom: 18,
+                center: lnt,
+                diagId: google.maps.MapTypeId.ROADMAP
+            }
+            diag = new google.maps.Map(document.getElementById('map'), diagChoice);
+            var marker = new google.maps.Marker({ position: ln1, map: diag, title: 'Karate klub GSP Polet' })
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</body>
+
+</html>

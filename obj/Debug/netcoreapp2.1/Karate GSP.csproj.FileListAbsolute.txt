@@ -1,0 +1,68 @@
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.deps.json
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.runtimeconfig.json
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.runtimeconfig.dev.json
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.dll
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.pdb
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.Views.dll
+C:\Users\Dex\source\repos\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.Views.pdb
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.csprojAssemblyReference.cache
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorAssemblyInfo.cache
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorAssemblyInfo.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.AssemblyInfoInputs.cache
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.AssemblyInfo.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.TagHelpers.input.cache
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.TagHelpers.output.cache
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorCoreGenerate.cache
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorTargetAssemblyInfo.cache
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorTargetAssemblyInfo.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.Views.pdb
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.dll
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.pdb
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.csproj.CopyComplete
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\Dex\source\repos\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Home\Video.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.dll
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.pdb
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\appsettings.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.deps.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.runtimeconfig.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.runtimeconfig.dev.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.dll
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.pdb
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.Views.dll
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\bin\Debug\netcoreapp2.1\Karate GSP.Views.pdb
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.csprojAssemblyReference.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.csproj.CoreCompileInputs.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorAssemblyInfo.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorAssemblyInfo.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.AssemblyInfoInputs.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.AssemblyInfo.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.TagHelpers.input.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.TagHelpers.output.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorCoreGenerate.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Home\Video.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorTargetAssemblyInfo.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.RazorTargetAssemblyInfo.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.Views.pdb
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.genruntimeconfig.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\Karate GSP\obj\Debug\netcoreapp2.1\Karate GSP.csproj.CopyComplete

@@ -1,0 +1,166 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Karate klub GSP polet</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>   
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript">
+        (function () {
+            function Slideshow(element) {
+                this.el = document.querySelector(element);
+                this.init();
+            }
+
+            Slideshow.prototype = {
+                init: function () {
+                    this.wrapper = this.el.querySelector(".slider-wrapper");
+                    this.slides = this.el.querySelectorAll(".slide");
+                    this.previous = this.el.querySelector(".slider-previous");
+                    this.next = this.el.querySelector(".slider-next");
+                    this.index = 0;
+                    this.total = this.slides.length;
+                    this.timer = null;
+
+                    this.action();
+                    this.stopStart();
+                },
+                _slideTo: function (slide) {
+                    var currentSlide = this.slides[slide];
+                    currentSlide.style.opacity = 1;
+
+                    for (var i = 0; i < this.slides.length; i++) {
+                        var slide = this.slides[i];
+                        if (slide !== currentSlide) {
+                            slide.style.opacity = 0;
+                        }
+                    }
+                },
+                action: function () {
+                    var self = this;
+                    self.timer = setInterval(function () {
+                        self.index++;
+                        if (self.index == self.slides.length) {
+                            self.index = 0;
+                        }
+                        self._slideTo(self.index);
+                    }, 3000);
+                },
+                stopStart: function () {
+                    var self = this;
+                    self.el.addEventListener(
+                        "mouseover",
+                        function () {
+                            clearInterval(self.timer);
+                            self.timer = null;
+                        },
+                        false
+                    );
+                    self.el.addEventListener(
+                        "mouseout",
+                        function () {
+                            self.action();
+                        },
+                        false
+                    );
+                }
+            };
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var slider = new Slideshow("#slider-wrapper");
+            });
+        })();
+    </script>
+</head>
+<body>
+    <div id="content_area">
+        <img alt="karate" id="Img3" runat="server" src="~/Images/karate.jpg" class="imgLeft" />
+        <h3>Karate</h3>
+        <p class="text">
+            Karate ili karate-do je borilačka veština, poreklom iz Japana. U bukvalnom prevodu, kara znači prazna (gola) ili kineska (po načinu izgovora),
+            te ruka ili šaka, dakle kako se odbraniti, odnosno boriti "bez oružja u rukama".
+            Nastanak karatea vezuje se za stare borilačke veštine ostrva Okinava, u 19. veku, gde su se lokalne tradicije mešale sa kineskim i japanskim uticajima.
+            Početkom 20. veka karate stiže u Japan, a posle Drugog svetskog rata raširio se po svetu. Do u izrazu karate-do implicira da je karate put do samospoznaje,
+            a ne samo učenje sa aspekte borbe. Karate pripada takozvanim tvrdim stilovima. Nasuprot mekim stilovima (aikido, ving čun itd.) koji gledaju da koriste snagu i energiju napadača,
+            tvrdi stilovi ističu telesnu kondiciju, pre svega brzinu i snagu iz brzine. Tehnički, karate koristi udarce pesnicom, šakom, prstima, laktovima, kolenom i nogama,
+            razne blokade, a ponekad se uče i poluge, bacanja, bolni hvatovi, udarci u vitalne tačke (u oči, grlo, nos itd.), i tehnike rukovanjem oružja - kobudo.
+        </p>
+    </div>
+    <div id="sidebar">
+        <div id="weather">
+            <table>
+                <tr>
+                    <th>
+                        Trenutni vremenski uslovi
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Država:
+                        @Html.Label((string)ViewBag.Drzava)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Grad:
+                        @Html.Label((string)ViewBag.Grad)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Temperatura:
+                        @Html.Label((string)ViewBag.Temperatura)
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td>
+                        Minimalna temperatura:
+                        @Html.Label((string)ViewBag.TemperaturaMin)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Maksimalna temperatura:
+                        @Html.Label((string)ViewBag.TemperaturaMax)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Pritisak
+                        @Html.Label((string)ViewBag.Pritisak)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Vlažnost vazduha:
+                        @Html.Label((string)ViewBag.Vlaznost)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Stanje:
+                        @Html.Label((string)ViewBag.Stanje)
+                    </td>
+                </tr>
+                
+
+            </table>
+        </div>
+        </div>
+        <div id="slider-wrapper">
+            <p class="slide">Održavanje treninga</p>
+            <p class="slide">Ponedeljak, sreda, četvrtak od 20h</p>
+            <p class="slide">Utorak SC Rakovica od 18h</p>
+            <p class="slide">Petak od 21:30h, subota od 18h</p>
+        </div>
+    </body>
+</html>
