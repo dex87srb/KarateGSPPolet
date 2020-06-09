@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Security.Policy;
 
 namespace Karate_GSP
 {
@@ -11,7 +12,7 @@ namespace Karate_GSP
     {
         public Startup(IConfiguration configuration)
         {
-           
+
             Configuration = configuration;
         }
 
@@ -27,7 +28,7 @@ namespace Karate_GSP
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-        
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -52,8 +53,9 @@ namespace Karate_GSP
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default",
+                    name: "Home",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }

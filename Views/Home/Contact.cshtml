@@ -9,20 +9,18 @@
 <head runat="server">
     <title>Karate klub GSP polet</title>
     <link href="~/css/StyleSheet.css" rel="stylesheet" />
-    
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css?parameter=1" rel="stylesheet" />
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
     <script src="~/lib/jquery/dist/jquery.js"></script>
-
 </head>
 <body>
     <div id="information-container">
         <div id="information">
-            <div class="row">
-                <div class="col-xs-6">
+            <div class="row contact-data">
+                <div class="col-xs-6 ">
                     <i class="fa fa-map-marker"></i>
                     <p>Radoslava Grujića 2, Beograd</p>
                 </div>
@@ -62,8 +60,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="label-contact" asp-for="Message">Poruka</label>
-                                <textarea
-                                          asp-for="Message" class="form-control"></textarea>
+                                <textarea asp-for="Message" class="form-control"></textarea>
                                 <span asp-validation-for="Message"
                                       class="text-muted"></span>
                             </div>
@@ -73,7 +70,6 @@
                                     Send
                                 </button>
                             </div>
-
                         </form>
                     </div>
                 }
@@ -90,13 +86,11 @@
                     </div>
                 </div>
             </div>
-
             <div>
                 <div>
                     @if (ViewBag.Message != null)
                     {
                         <div>@ViewBag.Message</div>
-
 
                     }
                 </div>
