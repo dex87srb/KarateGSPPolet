@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "PictureGallery";
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Karate klub GSP polet</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/lib/prettyPhotoGallery/js/jquery-1.6.1.min.js"></script>
+    <script src="~/lib/prettyPhotoGallery/js/jquery.prettyPhoto.js"></script>
+    <link href="~/lib/prettyPhotoGallery/css/prettyPhoto.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="gallery">
+
+        <a href="~/images/Gallery_Pictures/1.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/1.jpg" class="picture_gallery" />
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/2.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/2.jpg" class="picture_gallery" />
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/3.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/3.jpg" class="picture_gallery"/>
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/4.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/4.jpg" class="picture_gallery"/>
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/5.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/5.jpg" class="picture_gallery"/>
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/6.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/6.jpg" class="picture_gallery" />
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/7.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/7.jpg" class="picture_gallery"/>
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/8.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/8.jpg" class="picture_gallery"/>
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/9.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/9.jpg" class="picture_gallery"/>
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/10.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/10.jpg"class="picture_gallery" />
+        </a>
+
+
+        <a href="~/images/Gallery_Pictures/11.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/11.jpg" class="picture_gallery"/>
+        </a>
+
+        
+        <a href="~/images/Gallery_Pictures/12.jpg" rel="prettyPhoto[pp_gal]">
+            <img src="/images/Gallery_Pictures/12.jpg" class="picture_gallery"/>
+        </a>
+        
+    </div>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function () {
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+        });
+    </script>
+</body>
+</html>

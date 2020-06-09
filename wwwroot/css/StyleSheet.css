@@ -10,6 +10,12 @@
     background-color: white;
 }
 
+@media screen and (max-width: 480px) {
+    #wrapper {
+        width: 100%;
+    }
+}
+
 #banner {
     display: flex;
     justify-content: center;
@@ -61,6 +67,14 @@ nav.navbar-inverse {
     border: 2px solid #E3E3E3;
 }
 
+@media screen and (max-width: 480px) {
+    #content_area {
+        margin: 20px 0 0 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+
 .imgLeft {
     display: block;
     margin: 0 auto;
@@ -77,6 +91,14 @@ nav.navbar-inverse {
     margin-top: 20px;
     margin-right: 20px;
     border: 2px solid #E3E3E3;
+}
+
+@media screen and (max-width: 480px) {
+    #sidebar {
+        margin-right: 0;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 #weather {
@@ -97,6 +119,15 @@ nav.navbar-inverse {
     border: 2px solid #E3E3E3;
 }
 
+@media screen and (max-width: 480px) {
+    #slider-wrapper {
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
 .slide {
     margin-top: 10px;
 }
@@ -106,6 +137,12 @@ nav.navbar-inverse {
     height: 250px;
     margin: 0 auto;
     border: 5px solid #797171;
+}
+
+@media screen and (max-width: 480px) {
+    #map {
+        margin-bottom: 20px;
+    }
 }
 
 .col-xs-4 {
@@ -145,6 +182,12 @@ nav.navbar-inverse {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 480px) {
+    #information-container {
+        height: auto;
+    }
+}
+
 #information {
     padding-top: 10px;
     width: 900px;
@@ -155,10 +198,36 @@ nav.navbar-inverse {
     font-size: 1.2em;
 }
 
+@media only screen and (max-width: 480px) {
+    #information {
+        width: 100%;
+        height: 30%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 0.9em;
+    }
+}
+
 #contact-form {
     margin-left: 20px;
     padding: 20px;
     background-color: #383d5d
+}
+
+@media only screen and (max-width: 480px) {
+    #contact-form {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
 }
 
 i.fa {
@@ -297,4 +366,22 @@ footer {
 #youtube_video {
     height: 200px;
     width: 200px;
+}
+
+.picture_gallery {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+#gallery {
+    margin-left: 25px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #gallery {
+        display: flex;
+        overflow: scroll;
+    }
 }

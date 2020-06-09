@@ -1,17 +1,21 @@
-﻿using Karate_GSP.Models;
+﻿using HtmlAgilityPack;
+using Karate_GSP.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
 using System.Collections;
+using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
+using System.Web;
+
 
 namespace Karate_Klub_GSP_Polet.Controllers
 {
     public class HomeController : Controller
     {
-
         public ActionResult Index()
         {
             GetWeatherInfo();
@@ -53,6 +57,10 @@ namespace Karate_Klub_GSP_Polet.Controllers
                 else if (weatherI.Weather[0].Main.ToString() == "Extreme")
                 {
                     ViewBag.Stanje = "Oluja";
+                }
+                else if (weatherI.Weather[0].Main.ToString() == "Mist")
+                {
+                    ViewBag.Stanje = "Magla";
                 }
                 else ViewBag.Stanje = weatherI.Weather[0].Main.ToString();
 
@@ -149,6 +157,12 @@ namespace Karate_Klub_GSP_Polet.Controllers
 
             return View();
         }
+
+        public IActionResult PictureGallery()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();

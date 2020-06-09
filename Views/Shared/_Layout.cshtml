@@ -27,11 +27,9 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li class="active">@Html.ActionLink("Početna", "Index")</li>
+                        <li>@Html.ActionLink("Galerija","PictureGallery")</li>
                         <li>@Html.ActionLink("Video", "Video")</li>
                         <li>@Html.ActionLink("Kontakt", "Contact")</li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,10 +39,9 @@
             @RenderBody()
             <footer>
                 <input type="image" src="~/images/footer icons/facebook.png" class="items" />
-                <input type="image"  src="~/Images/footer icons/wkf.png" class="items" />
-                <input type="image"  src="~/Images/footer icons/BKS.png" class="items" />
+                <input type="image" src="~/Images/footer icons/wkf.png" class="items" />
+                <input type="image" src="~/Images/footer icons/BKS.png" class="items" />
                 <p id="footer-text">2020|Sva prava zadržana.</p>
-
             </footer>
         </div>
     </div>
