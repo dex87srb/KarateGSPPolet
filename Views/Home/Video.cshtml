@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Video";
 }
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -13,10 +12,28 @@
     <script src="~/lib/jquery/dist/jquery.js"></script>
 </head>
 <body>
-    <iframe class="youtube_video" src="https://www.youtube.com/embed/CdcfpywZSfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=allowfullscreen></iframe>
-    <div>@ViewBag.Text</div>
-    <iframe class="youtube_video" src="https://www.youtube.com/embed/beneA7a_VyA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=allowfullscreen></iframe>
-    <div>@ViewBag.Text1</div>
+    <div id="video-wrapper">
+        <div id="video-container1">
+            <iframe class="youtube_video_size" src="https://www.youtube.com/embed/CdcfpywZSfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=allowfullscreen></iframe>
+            <div class="youtube_video_title">@ViewBag.Text</div>
+        </div>
+        <div id="video-container2">
+            <iframe class="youtube_video_size" src="https://www.youtube.com/embed/beneA7a_VyA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=allowfullscreen>@ViewBag.Text1</iframe>
+            <div class="youtube_video_title">@ViewBag.Text1</div>
+        </div>
+        <div id="video-container3">
+            <iframe class="youtube_video_size" src="https://www.youtube.com/embed/OfSd-_zdOUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=allowfullscreen>@ViewBag.Text2</iframe>
+            <div class="youtube_video_title">@ViewBag.Text2</div>
+        </div>
+        <div id="video-container4">
+            <iframe class="youtube_video_size" src="https://www.youtube.com/embed/h7yVHa48bVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=allowfullscreen>@ViewBag.Text3</iframe>
+            <div class="youtube_video_title">@ViewBag.Text3</div>
+        </div>
+        <div id="video-container5">
+            <iframe class="youtube_video_size" src="https://www.youtube.com/embed/1pqgHCnyQYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=allowfullscreen>@ViewBag.Text4></iframe>
+            <div class="youtube_video_title">@ViewBag.Text4</div>
+        </div>
+    </div>
 </body>
 </html>
 

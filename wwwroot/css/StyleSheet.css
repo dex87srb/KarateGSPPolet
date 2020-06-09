@@ -363,9 +363,82 @@ footer {
         border-width: 10px;
     }
 
-#youtube_video {
-    height: 200px;
-    width: 200px;
+#video-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    #video-container1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#video-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    #video-container2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#video-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    #video-container3 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#video-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    #video-container4 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#video-container5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    #video-container5 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.youtube_video_size {
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+}
+
+.youtube_video_title {
+    padding: 10px;
+    text-align: center;
 }
 
 .picture_gallery {
@@ -375,13 +448,8 @@ footer {
 }
 
 #gallery {
-    margin-left: 25px;
-    padding: 20px;
-}
-
-@media screen and (max-width: 480px) {
-    #gallery {
-        display: flex;
-        overflow: scroll;
-    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }

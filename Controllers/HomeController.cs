@@ -82,11 +82,17 @@ namespace Karate_Klub_GSP_Polet.Controllers
         {
             string url = "https://www.youtube.com/watch?v=CdcfpywZSfQ&t=1s";
             string url1 = "https://www.youtube.com/watch?v=beneA7a_VyA";
+            string url2 = "https://www.youtube.com/watch?v=OfSd-_zdOUw";
+            string url3 = "https://www.youtube.com/watch?v=h7yVHa48bVE";
+            string url4 = "https://www.youtube.com/watch?v=1pqgHCnyQYk";
 
             ArrayList UrlList = new ArrayList
             {
                 url,
-                url1
+                url1,
+                url2,
+                url3,
+                url4
             };
 
             foreach (string item in UrlList)
@@ -102,9 +108,17 @@ namespace Karate_Klub_GSP_Polet.Controllers
                 {
                     ViewBag.Text1 = Regex.Match(sourcedata, @"\<title\b[^>]*\>\s*(?<Title>[\s\S]*?)\</title\>", RegexOptions.IgnoreCase).Groups["Title"].Value;
                 }
-                else if (true)
+                else if (item == url2)
                 {
-
+                    ViewBag.Text2 = Regex.Match(sourcedata, @"\<title\b[^>]*\>\s*(?<Title>[\s\S]*?)\</title\>", RegexOptions.IgnoreCase).Groups["Title"].Value;
+                }
+                else if (item == url3)
+                {
+                    ViewBag.Text3 = Regex.Match(sourcedata, @"\<title\b[^>]*\>\s*(?<Title>[\s\S]*?)\</title\>", RegexOptions.IgnoreCase).Groups["Title"].Value;
+                }
+                else 
+                {
+                    ViewBag.Text4 = Regex.Match(sourcedata, @"\<title\b[^>]*\>\s*(?<Title>[\s\S]*?)\</title\>", RegexOptions.IgnoreCase).Groups["Title"].Value;
                 }
             }
         }

@@ -82,12 +82,12 @@ using Karate_GSP.Models;
             WriteLiteral("\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n");
             EndContext();
             BeginContext(220, 634, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ee4d810681c473e9866c937305c8ca8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ef05d95a1fc3410dbf49cb34a435a3cd", async() => {
                 BeginContext(241, 48, true);
                 WriteLiteral("\r\n    <title>Karate klub GSP polet</title>\r\n    ");
                 EndContext();
                 BeginContext(289, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b2efd46fbc16479cb45d24f320ae550f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d26b5df42fc2411cbdd47c4f16da1117", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -106,7 +106,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" />\r\n    ");
                 EndContext();
                 BeginContext(469, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "729f20efb4f04aedacb6bdd023bf25fc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d0eb63d15514bab99fc4abc5854bd37", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -125,7 +125,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(546, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ea03f3103aa4ae681873895dd219bb9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a8773d5e4be4271a11986544ec13f72", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -143,7 +143,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(612, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "459daf1351ab40998c986dbd1da14c1b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cbb2f5851b124f648a43f4ffe0636fb6", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -161,7 +161,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(689, 73, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7516957a4685446b8f1b5030475abbfc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a7e68b62bd134785981c54fbc9e25ced", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -179,7 +179,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(768, 77, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "856d1798cf0442e7b438b923e1c6e9ea", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "df329fb6528342f8b1ae524b96fa1add", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -214,12 +214,12 @@ using Karate_GSP.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(856, 2377, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ec9b6af548f4febadffbb50934fc618", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a67dae56352042ae897dc5ff327a3ef8", async() => {
                 BeginContext(862, 36, true);
                 WriteLiteral("\r\n    <div id=\"gallery\">\r\n\r\n        ");
                 EndContext();
                 BeginContext(898, 164, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d51e0a1f6c7049e783020398a9e7b065", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "881bb2643a95481697b13a97055cdf66", async() => {
                     BeginContext(966, 92, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/1.jpg\" class=\"picture_gallery\" />\r\n        ");
                     EndContext();
@@ -241,7 +241,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(1076, 164, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "833261747258416b88143521760cc0da", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9d2a0b658b644abaaf5a7094aceebf9", async() => {
                     BeginContext(1144, 92, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/2.jpg\" class=\"picture_gallery\" />\r\n        ");
                     EndContext();
@@ -263,7 +263,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(1254, 163, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70b4cdfd0e9142918dac887952985754", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7aa918c3dc548ee882f0bd05bbf8e8f", async() => {
                     BeginContext(1322, 91, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/3.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
@@ -285,7 +285,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(1431, 163, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13079cd0f66146e1a05ed3953f598a82", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3a9186da02d4f85aff8f251036c0c8a", async() => {
                     BeginContext(1499, 91, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/4.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
@@ -307,7 +307,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(1608, 163, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33dca73c0d624f898a39a874b4930985", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "765499055149463cabce4480ba027c98", async() => {
                     BeginContext(1676, 91, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/5.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
@@ -329,7 +329,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(1785, 164, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be12ac4e4e784938a95e639278ee089d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7d6fdadcd8b44d98369dcf42bd8301d", async() => {
                     BeginContext(1853, 92, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/6.jpg\" class=\"picture_gallery\" />\r\n        ");
                     EndContext();
@@ -351,7 +351,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(1963, 163, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ccd34dc821ef4035996f41543dea6d02", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "866e0b3fc2b64832a3c02f3a41967a46", async() => {
                     BeginContext(2031, 91, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/7.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
@@ -373,7 +373,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(2140, 163, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20ed014c088e4bd892baf86657533ebb", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77083d71cf844ca4a25d8f07b414eb8b", async() => {
                     BeginContext(2208, 91, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/8.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
@@ -395,7 +395,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(2317, 163, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8bae0e653d794d96a0d833a2013760df", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6f3baac175149628de6557a6364bb5d", async() => {
                     BeginContext(2385, 91, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/9.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
@@ -417,7 +417,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(2494, 165, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55f0ca88760746f7bdbc4b5028ab4547", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d340cc6f9d01404db1717a9b66c59bc7", async() => {
                     BeginContext(2563, 92, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/10.jpg\"class=\"picture_gallery\" />\r\n        ");
                     EndContext();
@@ -439,7 +439,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n\r\n        ");
                 EndContext();
                 BeginContext(2673, 165, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5467c680ca34027accb389ce7c86cf2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e1b3417d6b74353ba0cfa5dc9cd2f6f", async() => {
                     BeginContext(2742, 92, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/11.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
@@ -461,7 +461,7 @@ using Karate_GSP.Models;
                 WriteLiteral("\r\n\r\n        \r\n        ");
                 EndContext();
                 BeginContext(2860, 165, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e4a95202bc6941dfbd9a3082caca5d4e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b6c1d8a57e5c45829fd7d0cb4376f2f4", async() => {
                     BeginContext(2929, 92, true);
                     WriteLiteral("\r\n            <img src=\"/images/Gallery_Pictures/12.jpg\" class=\"picture_gallery\"/>\r\n        ");
                     EndContext();
